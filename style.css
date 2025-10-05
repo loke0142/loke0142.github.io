@@ -25,13 +25,13 @@ h1 {
     padding: 15px;
 }
 
-.about-me-grid {
+.about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr; /* two equal columns */
   gap: 20px;
 }
 
-.about-me-left, .about-me-right {
+.about-left, .about-right {
   background-color: white;
   border: 1px solid black;
   padding: 20px;
