@@ -1,0 +1,51 @@
+.top-header {
+    background-color: #715e5e;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-block: 8px;
+
+}
+h1 {
+    text-align: center;
+}
+.Loke-img {
+    width: 250px;
+    height: auto;
+    
+}
+.cv-grid {
+    display: flex;
+    gap: 20;
+}
+.cv-left, .cv-right {
+    background-color: white;
+    border: 1px solid black;
+    flex: 1;
+    padding: 15px;
+}
+
+.about-me-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two equal columns */
+  gap: 20px;
+}
+
+.about-me-left, .about-me-right {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.float-img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 20px 10px 0; /* some breathing room */
+  float: left;  /* works inside each text block */
+}
+
+.badminton-img {
+    width: 200px;
+    height: auto;
+}
